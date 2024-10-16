@@ -20,9 +20,9 @@
         !dictionary.errMsg
       "
     >
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between flex-wrap items-center mb-12">
         <div>
-          <h1 class="text-5xl font-semibold mb-3">
+          <h1 class="text-3xl sm:text-5xl font-semibold">
             {{ dictionary.wordData.word }}
           </h1>
           <p class="text-lg text-violet-500">
@@ -36,9 +36,8 @@
           :disabled="isPlaying"
         >
           <svg
+            class="w-16 h-16 sm:w-[75px] sm:h-[75px]"
             xmlns="http://www.w3.org/2000/svg"
-            width="75"
-            height="75"
             viewBox="0 0 75 75"
           >
             <g class="group" fill="#A445ED" fill-rule="evenodd">

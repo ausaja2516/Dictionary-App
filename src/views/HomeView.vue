@@ -21,7 +21,8 @@ const dictionary = useDictionaryStore();
         placeholder="Search for any word"
       />
       <svg
-        class="mr-4"
+        @click="dictionary.getData(searchWord), (searchWord = '')"
+        class="mr-4 cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
         width="18"
         height="18"
