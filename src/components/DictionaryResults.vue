@@ -108,7 +108,7 @@
         <p>
           Source:
           <a
-            class="ml-4 hover:underline active:underline underline-offset-4"
+            class="ml-4 hover:underline active:underline underline-offset-4 break-words"
             :href="dictionary.wordData.sourceUrl"
             target="_blank"
             >{{ dictionary.wordData.sourceUrl }}</a
